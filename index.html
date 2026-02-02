@@ -1,0 +1,107 @@
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Group Smart House Services Coop.</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Group Smart House Services Coop.</h1>
+      <p>Innovating with EPAS - Electronic Product Assembly System</p>
+      <a href="#projects" class="btn">View Our Projects</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>We are a dedicated team specializing in EPAS (Electronic Product Assembly System), delivering innovative solutions and advanced technology for smart assembly processes.</p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h2>Our Projects</h2>
+    <div class="project-cards">
+
+      <!-- Project 1 -->
+      <div class="project-card" onclick="openModal('project1.mp4')">
+        <h3>EPAS Automation</h3>
+        <p>Streamlined assembly with smart electronic systems.</p>
+        <img src="project1-thumbnail.png" alt="EPAS Automation" class="project-thumb">
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-card" onclick="openModal('project2.mp4')">
+        <h3>Smart Components</h3>
+        <p>Innovative modules for faster and efficient assembly.</p>
+        <img src="project2-thumbnail.png" alt="Smart Components" class="project-thumb">
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Modal for Videos -->
+  <div id="videoModal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <video id="modalVideo" controls autoplay></video>
+  </div>
+
+  <!-- Team Section -->
+  <section id="team" class="team">
+    <h2>Meet Our Team</h2>
+    <div class="team-members">
+      <div class="member">
+        <img src="A_set_of_seven_digital_3D-rendered_avatar-style_po.png" alt="Jhon Leonel Galang">
+        <h4>Jhon Leonel Galang</h4>
+      </div>
+      <div class="member">
+        <img src="A_set_of_seven_digital_3D-rendered_avatar-style_po.png" alt="Jhon Loween Galang">
+        <h4>Jhon Loween Galang</h4>
+      </div>
+      <div class="member">
+        <img src="A_set_of_seven_digital_3D-rendered_avatar-style_po.png" alt="Shane Jay Alabata">
+        <h4>Shane Jay Alabata</h4>
+      </div>
+      <div class="member">
+        <img src="A_set_of_seven_digital_3D-rendered_avatar-style_po.png" alt="Rigil Kent Matilos">
+        <h4>Rigil Kent Matilos</h4>
+      </div>
+      <div class="member">
+        <img src="A_set_of_seven_digital_3D-rendered_avatar-style_po.png" alt="Gabriel Biloy">
+        <h4>Gabriel Biloy</h4>
+      </div>
+      <div class="member">
+        <img src="A_set_of_seven_digital_3D-rendered_avatar-style_po.png" alt="Angelo Pandian">
+        <h4>Angelo Pandian</h4>
+      </div>
+      <div class="member">
+        <img src="A_set_of_seven_digital_3D-rendered_avatar-style_po.png" alt="Joshua Magno">
+        <h4>Joshua Magno</h4>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Group Smart House Services Coop. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
